@@ -42,22 +42,23 @@ var favBand = prompt("enter favorite band")
   }
 
 // Question 6
-function alertName(personsName) {
-  return alert(personsName)
+var boy = prompt("Enter your name")
+function someName(name) {
+  return(name)
 }
-alertName("Joel");
+alert(someName(boy))
 
 // Question 7
-function division(num1, num2) {
-console.log(num1/num2)
+function noArg() {
+console.log("Hi")
 }
-division (10,5);
+noArg();
 
 // Question 8
 function doorPrize(doorNumber) {
    if(doorNumber == 1) {
   alert("You win a goat!")
- } if(doorNumber == 2) {
+ } else if(doorNumber == 2) {
   alert("You win a microwave!")
  } else if(doorNumber == 3) {
   alert("You win a brand new car!")
